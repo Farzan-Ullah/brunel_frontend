@@ -18,12 +18,10 @@ export default function QnASection() {
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, voluptatibus sed? Pariatur voluptates, eveniet nemo amet ullam molestias distinctio perspiciatis!",
   ];
 
-  const [isOpen, setIsOpen] = useState(Array(questions.length).fill(false));
+  const [openIndex, setOpenIndex] = useState(null);
 
   const toggleCollapse = (index) => {
-    const newIsOpen = [...isOpen];
-    newIsOpen[index] = !newIsOpen[index];
-    setIsOpen(newIsOpen);
+    setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
   return (
@@ -42,10 +40,12 @@ export default function QnASection() {
                   className="collapse-toggle"
                   onClick={() => toggleCollapse(index)}
                 >
-                  {isOpen[index] ? "-" : "+"}
+                  {openIndex === index ? "-" : "+"}
                 </button>
               </div>
-              <div className={`qna-answer${isOpen[index] ? " open" : ""}`}>
+              <div
+                className={`qna-answer${openIndex === index ? " open" : ""}`}
+              >
                 <p>{answers[index]}</p>
               </div>
               <hr className="divider" />
