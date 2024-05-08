@@ -13,7 +13,7 @@ export default function QnASection() {
   const answers = [
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, voluptatibus sed? Pariatur voluptates, eveniet nemo amet ullam molestias distinctio perspiciatis!",
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, voluptatibus sed? Pariatur voluptates, eveniet nemo amet ullam molestias distinctio perspiciatis!",
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, voluptatibus sed? Pariatur voluptates, eveniet nemo amet ullam molestias distinctio perspiciatis!",
+    "If unhappy with a project, communicate with the freelancer, allow for revisions, and refer to the agreement. Escalate to platform support if needed, considering mediation. Review policies, seek collaborative solutions for resolution.",
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, voluptatibus sed? Pariatur voluptates, eveniet nemo amet ullam molestias distinctio perspiciatis!",
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, voluptatibus sed? Pariatur voluptates, eveniet nemo amet ullam molestias distinctio perspiciatis!",
   ];

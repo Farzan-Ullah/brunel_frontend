@@ -8,8 +8,12 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <br/>
+      {/* <br /> */}
       <Main />
+      {/* <br />
+      <br />
+      <br /> */}
+      {/* <br/>
       <br/>
       <br/>
       <br/>
@@ -17,11 +21,9 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br/> */}
       <QnASection />
-      <br/>
+      <br />
       <Footer />
     </div>
   );

@@ -12,11 +12,11 @@ export default function Main() {
     },
     {
       value:
-        "Enhance fortune 50 company’s insights teams research capabilities",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, doloribus.",
     },
     {
       value:
-        "Enhance fortune 50 company’s insights teams research capabilities",
+        "Amet consectetur adipisicing elit. Accusantium, doloribus. Lorem ipsum dolor sit.",
     },
   ];
   const [sliderData, setSliderData] = useState(slideData[0].value);
