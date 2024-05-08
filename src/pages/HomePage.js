@@ -4,26 +4,12 @@ import Navbar from "../components/Navbar";
 import QnASection from "../components/QnASection";
 import Footer from "../components/Footer";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
       <Navbar />
-      {/* <br /> */}
       <Main />
-      {/* <br />
-      <br />
-      <br /> */}
-      {/* <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/> */}
       <QnASection />
-      <br />
       <Footer />
     </div>
   );

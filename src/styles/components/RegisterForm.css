@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+.register-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-header .close-button {
+    margin-right: 90px;
+    margin-top: 50px;
+    font-size: 1.5em;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 50px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.company-logo img {
+    margin-left: 30px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-heading p {
+    margin-bottom: 0;
+    font-family: "Covered By Your Grace", cursive;
+    color: #2DA950;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.form-heading h3 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: -2px;
+    margin-top: 0;
+    width: 400px;
+}
+
+.form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.form-wrapper form input {
+    position: relative;
+    height: 75px;
+    width: 400px;
+    border: none;
+    border-radius: 50px;
+    background-color: #EFEFEF;
+    text-indent: 40px;
+    font-size: 1.2em;
+}
+
+.form-wrapper form input:focus {
+    background-color: #F5F8FF;
+    outline-color: #537FF1;
+}
+
+.form-wrapper form input::placeholder {
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #827a7abb;
+}
+
+.form-wrapper form button {
+    height: 85px;
+    width: 400px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+
+
+.form-wrapper form button:disabled {
+    background-color: #C9C9C9;
+    color: #fff;
+}
+
+.form-wrapper form button:enabled {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.error-message {
+    position: relative;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #FF0808;
+}
+
+.error-message span {
+    position: relative;
+    right: 8px;
+    bottom: 2px;
+    border: 1px solid red;
+    border-radius: 100px;
+    padding: 0.5px 6px;
+    font-size: 0.7em;
+    background-color: #FF0808;
+    color: #fff;
+    font-weight: 600;
+}
