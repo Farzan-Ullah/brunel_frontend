@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 @import url('https://fonts.cdnfonts.com/css/switzer');
 
+
 .top-content {
   display: flex;
   flex-direction: column;
@@ -168,14 +169,17 @@
 }
 
 .right-content {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 600px;
   margin-top: 30px;
+  z-index: -1;
 }
 
 .carousel-slider {
+  top: 250px;
   display: flex;
 }
 
@@ -220,4 +224,16 @@
 .explore-button:hover {
   background-color: #4E4E4E;
   transition-delay: 0.1s;
+}
+
+.back-image {
+  position: absolute;
+  left: 85%;
+  top: -20px;
+  bottom: 40px;
+  width: 400px;
+  height: 400px;
+  background-image: url("../../images/rectanglebg.png");
+  background-size: 140px;
+  z-index: -1;
 }

@@ -12,11 +12,11 @@ export default function Main() {
     },
     {
       value:
-        "Enhance fortune 51 company’s insights teams research capabilities",
+        "Enhance fortune 50 company’s insights teams research capabilities",
     },
     {
       value:
-        "Enhance fortune 52 company’s insights teams research capabilities",
+        "Enhance fortune 50 company’s insights teams research capabilities",
     },
   ];
   const [sliderData, setSliderData] = useState(slideData[0].value);
@@ -79,6 +79,7 @@ export default function Main() {
             ))}
           </div>
           <div className="explore-button">Explore More &nbsp; &rarr;</div>
+          <div className="back-image"></div>
         </div>
       </div>
     </>

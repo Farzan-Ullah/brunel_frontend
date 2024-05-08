@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+.qna-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 30px;
+    background-color: #E8EEE7;
+    margin: 0 auto;
+    background-image: url("../../images/bglogo_qna.png");
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    background-size: 32%;
+}
+
+.qna-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 490px;
+    margin-left: 70px;
+}
+
+.qna-heading p {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 1.8em;
+    margin-bottom: 0;
+    color: #9E9D9D;
+}
+
+.qna-heading h2 {
+    font-size: 4em;
+    margin-top: 0;
+}
+
+.qna-content {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.qna-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #cfcfcf5d;
+}
+
+.qna-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qna-question h3 {
+    width: 400px;
+}
+
+.collapse-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.qna-answer {
+    margin-top: 20px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.qna-answer p {
+    margin: 0;
+    width: 600px;
+}
+
+.qna-answer.open {
+    height: auto;
+}

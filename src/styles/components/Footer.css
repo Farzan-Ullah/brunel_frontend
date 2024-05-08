@@ -1,0 +1,35 @@
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    padding: 20px 50px;
+    margin: 10px 90px;
+    margin-bottom: 30px;
+}
+
+.footer-content p {
+    margin-left: 29px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer-links a {
+    text-decoration: underline;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: black;
+}
+
+.copyright {
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 500;
+}
