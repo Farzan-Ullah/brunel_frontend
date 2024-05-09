@@ -14,7 +14,7 @@ export default function RegisterForm() {
 
   const handleNameChange = (event) => {
     setName(event.target.value);
-    setIsButtonDisabled(event.target.value === "" && email === "");
+    setIsButtonDisabled(event.target.value === "" || email === "");
   };
 
   const isValidEmail = (value) => {
@@ -24,7 +24,7 @@ export default function RegisterForm() {
   const handleEmailChange = (event) => {
     const value = event.target.value;
     setEmail(value);
-    setIsButtonDisabled(name === "" && !isValidEmail(value));
+    setIsButtonDisabled(name === "" || !value);
     if (value === "") {
       setEmailError("");
     }

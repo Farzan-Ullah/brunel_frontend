@@ -85,6 +85,7 @@
 .form-wrapper form button:disabled {
     background-color: #C9C9C9;
     color: #fff;
+    cursor: not-allowed;
 }
 
 .form-wrapper form button:enabled {
